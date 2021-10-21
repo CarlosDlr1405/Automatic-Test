@@ -12,7 +12,7 @@ class usando_unittest(unittest.TestCase):
 	
 	def test_siguiente(self):
 		driver=self.driver
-		driver.get("http://www.google.com")
+		driver.cbget("http://www.google.com")
 		time.sleep(3)
 		driver.get("http://www.youtube.com")
 		time.sleep(3)
